@@ -2,10 +2,10 @@
 udp引量工具，在原开源版本基础上新加了控制qps功能
 
 编译方法：
-sh autogen.sh
-./configure
-make
-make install
+(1)sh autogen.sh
+(2)./configure
+(3)make
+(4)make install
 
 用法跟原开源版本一致，新增qps功能参数为-q （send num per second）
 用法示例：
